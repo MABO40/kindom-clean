@@ -18,7 +18,6 @@ export function Footer() {
               <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
                 <span className="text-white">KC</span>
               </div>
-              <span className="text-xl">Oclean</span>
             </div>
             <p className="text-gray-400 mb-6">
               Your trusted partner for impeccable commercial spaces for over 30 years.

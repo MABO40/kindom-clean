@@ -52,7 +52,7 @@ const CommercialDetailsSection = () => {
       <div className="container mx-auto px-4 lg:px-8">
         {/* Service Info */}
         <div className="text-center max-w-4xl mx-auto mb-16">
-          <h2 className="text-gray-900 mb-4">Professional Commercial Cleaning</h2>
+          
           <div className="flex justify-center flex-wrap gap-4 mb-8">
             {highlights.map((highlight, index) => (
               <span key={index} className="inline-flex items-center px-4 py-1.5 bg-blue-100 text-blue-800 rounded-full">
@@ -110,10 +110,7 @@ const CommercialHero = () => {
       <div className="container mx-auto px-4 lg:px-8 relative z-10 py-20">
         <div className="max-w-3xl">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-6">
-            <Briefcase className="w-4 h-4 text-yellow-400" />
-            <span className="text-white">Professional Office Cleaning</span>
-          </div>
+       
 
           {/* Headline */}
           <h1 className="text-white mb-6">
@@ -140,25 +137,11 @@ const CommercialHero = () => {
               variant="outline"
               className="bg-white/10 backdrop-blur-sm border border-white/30 text-white hover:bg-white/20"
             >
-              Request Proposal
-            </Button>
+Email us            </Button>
           </div>
 
           {/* Social Proof */}
-          <div className="flex flex-wrap gap-6 items-center">
-            <div className="flex items-center gap-2 text-white">
-              <CheckCircle className="w-5 h-5 text-green-400" />
-              <span>Night Service Available</span>
-            </div>
-            <div className="flex items-center gap-2 text-white">
-              <CheckCircle className="w-5 h-5 text-green-400" />
-              <span>Eco-Certified Products</span>
-            </div>
-            <div className="flex items-center gap-2 text-white">
-              <CheckCircle className="w-5 h-5 text-green-400" />
-              <span>Quality Inspections</span>
-            </div>
-          </div>
+          
         </div>
       </div>
 

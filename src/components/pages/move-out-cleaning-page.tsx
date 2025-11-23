@@ -126,10 +126,7 @@ const MoveOutHero = () => {
       <div className="container mx-auto px-4 lg:px-8 relative z-10 py-20">
         <div className="max-w-3xl">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-6">
-            <Truck className="w-4 h-4 text-yellow-400" />
-            <span className="text-white">Move-In / Move-Out Experts</span>
-          </div>
+       
 
           {/* Headline */}
           <h1 className="text-white mb-6">
@@ -156,25 +153,12 @@ const MoveOutHero = () => {
               variant="outline"
               className="bg-white/10 backdrop-blur-sm border border-white/30 text-white hover:bg-white/20"
             >
-              Book Deep Clean
+              Email us
             </Button>
           </div>
 
           {/* Social Proof */}
-          <div className="flex flex-wrap gap-6 items-center">
-            <div className="flex items-center gap-2 text-white">
-              <CheckCircle className="w-5 h-5 text-green-400" />
-              <span>Post-Construction Ready</span>
-            </div>
-            <div className="flex items-center gap-2 text-white">
-              <CheckCircle className="w-5 h-5 text-green-400" />
-              <span>Turnover Specialists</span>
-            </div>
-            <div className="flex items-center gap-2 text-white">
-              <CheckCircle className="w-5 h-5 text-green-400" />
-              <span>Same-Day Available</span>
-            </div>
-          </div>
+         
         </div>
       </div>
 
